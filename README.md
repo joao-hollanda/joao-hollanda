@@ -124,8 +124,6 @@ $ curl -s learnly/status
 
 </div>
 
-> **Não apareceu?** Fork o [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) e deploya no seu próprio Vercel. Troca a URL acima pela sua instância — nunca cai por rate limit.
-
 <br/>
 
 ---
