@@ -1,17 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0d1117,100:000000&height=2&section=header)
-
-```
- ██╗ ██████╗  █████╗  ██████╗     ██╗  ██╗ ██████╗ ██╗     ██╗      █████╗ ███╗   ██╗██████╗  █████╗
- ██║██╔═══██╗██╔══██╗██╔═══██╗    ██║  ██║██╔═══██╗██║     ██║     ██╔══██╗████╗  ██║██╔══██╗██╔══██╗
- ██║██║   ██║███████║██║   ██║    ███████║██║   ██║██║     ██║     ███████║██╔██╗ ██║██║  ██║███████║
-██╔╝██║   ██║██╔══██║██║   ██║    ██╔══██║██║   ██║██║     ██║     ██╔══██║██║╚██╗██║██║  ██║██╔══██║
-██║ ╚██████╔╝██║  ██║╚██████╔╝    ██║  ██║╚██████╔╝███████╗███████╗██║  ██║██║ ╚████║██████╔╝██║  ██║
-╚═╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=600&color=00FF88&center=true&vCenter=true&width=700&lines=%24+whoami+%E2%86%92+Full+Stack+Dev+%7C+18+%7C+Alfenas+MG+%F0%9F%87%A7%F0%9F%87%B7;%24+cat+stack.txt+%E2%86%92+C%23+%2F+.NET+%2F+React+%2F+PostgreSQL;%24+./learnly+--status+%E2%86%92+building+something+real+%F0%9F%9A%80;%24+ls+skills%2F+%E2%86%92+clean-arch+jwt+efcore+groq-api+tanstack)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=600&color=00FF88&center=true&vCenter=true&width=700&lines=%24+whoami+%E2%86%92+Full+Stack+Dev+%7C+Alfenas+MG+%F0%9F%87%A7%F0%9F%87%B7;%24+cat+stack.txt+%E2%86%92+C%23+%2F+.NET+%2F+React+%2F+PostgreSQL;%24+./learnly+--status+%E2%86%92+building+something+real+%F0%9F%9A%80;%24+ls+skills%2F+%E2%86%92+clean-arch+jwt+efcore+groq-api+tanstack)](https://git.io/typing-svg)
 
 </div>
 
@@ -21,7 +10,7 @@
 
 ![](https://img.shields.io/badge/CS_%40_Unifal-2026-00FF88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/Bootcamp-Itera360_%7C_580h-00CFFF?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Role-Dev_Monitor_%26_PR_Reviewer-FF6E96?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Role-Dev_%26_Monitor-FF6E96?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/Location-Alfenas%2C_MG-FFD700?style=flat-square&labelColor=0d1117)
 
 </div>
@@ -30,7 +19,7 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="25"/> &nbsp;`~/learnly` — flagship product
+## 🚀 &nbsp;`~/learnly` — flagship product
 
 <table>
 <tr>
@@ -68,7 +57,7 @@ $ curl -s learnly/status
     "JWT + HttpOnly Cookies"
   ],
   "frontend": [
-    "React · TypeScript",
+    "React",
     "TanStack Query",
     "CSS Modules"
   ],
@@ -83,7 +72,7 @@ $ curl -s learnly/status
 
 ```diff
 + [✓] IDOR prevention     — userId via JWT claims, nunca da rota
-+ [✓] AI feedback         — batch único por simulado, por questão  
++ [✓] AI feedback         — batch único por simulado, por questão
 + [✓] Cache inteligente   — staleTime: Infinity + invalidateQueries cross-page
 + [✓] Segurança           — sem ex.Message exposto, sem magic strings
 + [✓] Produto real        — pitch page, market sizing, pricing tiers
@@ -109,7 +98,7 @@ $ curl -s learnly/status
 | Layer | Tech |
 |:---:|:---|
 | ![](https://img.shields.io/badge/BACKEND-0d1117?style=for-the-badge) | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Clean Arch](https://img.shields.io/badge/Clean_Architecture-6c63ff?style=flat-square) ![REST](https://img.shields.io/badge/REST_API-ff6e96?style=flat-square) |
-| ![](https://img.shields.io/badge/FRONTEND-0d1117?style=for-the-badge) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![TanStack](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| ![](https://img.shields.io/badge/FRONTEND-0d1117?style=for-the-badge) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TanStack](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-1572B6?style=flat-square&logo=css3&logoColor=white) |
 | ![](https://img.shields.io/badge/DATABASE-0d1117?style=for-the-badge) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Neon](https://img.shields.io/badge/Neon-00E699?style=flat-square&logo=neon&logoColor=black) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) |
 | ![](https://img.shields.io/badge/AUTH_/_AI-0d1117?style=for-the-badge) | ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Groq](https://img.shields.io/badge/Groq_API-F55036?style=flat-square) |
 | ![](https://img.shields.io/badge/TOOLING-0d1117?style=for-the-badge) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Scrum](https://img.shields.io/badge/Scrum-009FDA?style=flat-square&logo=scrumalliance&logoColor=white) |
@@ -123,13 +112,19 @@ $ curl -s learnly/status
 ## 📊 `~/stats`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=joao-hollanda&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00FF88&icon_color=00CFFF&text_color=8b949e&ring_color=00FF88&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joao-hollanda&layout=compact&langs_count=5&hide_border=true&bg_color=0d1117&title_color=00FF88&text_color=8b949e" />
+
+[![](https://github-readme-stats.vercel.app/api?username=joao-hollanda&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00FF88&icon_color=00CFFF&text_color=8b949e&ring_color=00FF88&include_all_commits=true&count_private=true)](https://github.com/joao-hollanda)
+[![](https://github-readme-stats.vercel.app/api/top-langs/?username=joao-hollanda&layout=compact&langs_count=5&hide_border=true&bg_color=0d1117&title_color=00FF88&text_color=8b949e)](https://github.com/joao-hollanda)
+
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=joao-hollanda&hide_border=true&background=0d1117&ring=00FF88&fire=FF6E96&currStreakLabel=00FF88&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=joao-hollanda&hide_border=true&background=0d1117&ring=00FF88&fire=FF6E96&currStreakLabel=00FF88&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
+
 </div>
+
+> **Não apareceu?** Fork o [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) e deploya no seu próprio Vercel. Troca a URL acima pela sua instância — nunca cai por rate limit.
 
 <br/>
 
