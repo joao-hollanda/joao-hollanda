@@ -1,115 +1,158 @@
+<div align="center">
+
+![header](https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0d1117,100:000000&height=2&section=header)
+
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   $ whoami                                                       ║
-║   > João Hollanda — Full Stack Dev, 18, Alfenas MG 🇧🇷           ║
-║                                                                  ║
-║   $ cat about.txt                                                ║
-║   > CS @ Unifal (2026)                                           ║
-║   > 580h Full Stack Bootcamp — Itera360                          ║
-║   > Dev Monitor & PR Reviewer                                    ║
-║   > Building: Learnly                                            ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+ ██╗ ██████╗  █████╗  ██████╗     ██╗  ██╗ ██████╗ ██╗     ██╗      █████╗ ███╗   ██╗██████╗  █████╗
+ ██║██╔═══██╗██╔══██╗██╔═══██╗    ██║  ██║██╔═══██╗██║     ██║     ██╔══██╗████╗  ██║██╔══██╗██╔══██╗
+ ██║██║   ██║███████║██║   ██║    ███████║██║   ██║██║     ██║     ███████║██╔██╗ ██║██║  ██║███████║
+██╔╝██║   ██║██╔══██║██║   ██║    ██╔══██║██║   ██║██║     ██║     ██╔══██║██║╚██╗██║██║  ██║██╔══██║
+██║ ╚██████╔╝██║  ██║╚██████╔╝    ██║  ██║╚██████╔╝███████╗███████╗██║  ██║██║ ╚████║██████╔╝██║  ██║
+╚═╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝
 ```
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=600&color=00FF88&center=true&vCenter=true&width=700&lines=%24+whoami+%E2%86%92+Full+Stack+Dev+%7C+18+%7C+Alfenas+MG+%F0%9F%87%A7%F0%9F%87%B7;%24+cat+stack.txt+%E2%86%92+C%23+%2F+.NET+%2F+React+%2F+PostgreSQL;%24+./learnly+--status+%E2%86%92+building+something+real+%F0%9F%9A%80;%24+ls+skills%2F+%E2%86%92+clean-arch+jwt+efcore+groq-api+tanstack)](https://git.io/typing-svg)
+
+</div>
 
 <br/>
 
-## `~/projects/learnly` &nbsp;★ flagship
+<div align="center">
 
-> **Learnly** é uma plataforma de preparação para o ENEM com simulados e feedback por questão gerado por IA.  
-> Saiu de projeto pessoal para **oferta real de deploy em escola** após apresentação pública.
+![](https://img.shields.io/badge/CS_%40_Unifal-2026-00FF88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Bootcamp-Itera360_%7C_580h-00CFFF?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Role-Dev_Monitor_%26_PR_Reviewer-FF6E96?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Location-Alfenas%2C_MG-FFD700?style=flat-square&labelColor=0d1117)
+
+</div>
+
+<br/>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="25"/> &nbsp;`~/learnly` — flagship product
+
+<table>
+<tr>
+<td>
 
 ```bash
-$ cat learnly/stack.json
+$ cat learnly/README.md
+```
+
+**Learnly** é uma plataforma de preparação para o ENEM  
+com simulados adaptativos e feedback por questão via IA.
+
+Começou como projeto pessoal.  
+Depois de uma apresentação pública →  
+**oferta real de deploy em escola.** 🎓
+
+```bash
+$ curl -s learnly/status
+> stage:   pre-production
+> users:   growing
+> infra:   load test em andamento (k6)
+> ai:      Groq — llama-3.1-8b-instant
+```
+
+</td>
+<td>
+
+```json
+// learnly/stack.json
 {
-  "backend":  ["C#", ".NET 8", "Clean Architecture", "EF Core", "PostgreSQL/Neon"],
-  "frontend": ["React", "TypeScript", "TanStack Query", "CSS Modules"],
-  "auth":     "JWT + HttpOnly Cookies",
-  "ai":       "Groq API — llama-3.1-8b-instant",
-  "db":       "PostgreSQL via Neon (serverless)"
+  "backend": [
+    "C#  · .NET 8",
+    "Clean Architecture",
+    "Entity Framework Core",
+    "JWT + HttpOnly Cookies"
+  ],
+  "frontend": [
+    "React · TypeScript",
+    "TanStack Query",
+    "CSS Modules"
+  ],
+  "database": "PostgreSQL / Neon",
+  "ai":       "Groq API (batch inference)"
 }
-
-$ cat learnly/highlights.md
-  [✓] IDOR prevention — userId lido dos claims JWT, nunca da rota
-  [✓] AI feedback batch — uma chamada Groq por simulado, por questão
-  [✓] TanStack Query cache — staleTime: Infinity + invalidateQueries cross-page
-  [✓] Pitch page — market sizing, pricing tiers, modelo de negócio
-  [✓] Load testing — estratégia k6/Artillery em andamento
-  [✓] Oferta de deploy em escola após apresentação 🎓
-
-$ git log --oneline learnly/
-  a3f91c  feat: AI feedback por questão via Groq (batch)
-  b82de1  fix: IDOR em todos os controllers via JWT claims
-  c14fa2  perf: cache TanStack Query + invalidação coordenada
-  d09b3e  feat: engine de simulado + cálculo de nota final
-  e71ca9  build: pitch page com market sizing e pricing
-  f30d11  sec: JWT HttpOnly + refresh token queue (Axios)
 ```
 
-<br/>
+</td>
+</tr>
+</table>
 
-[![Learnly API](https://img.shields.io/badge/Learnly.API-repo-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/joao-hollanda/Learnly.API)
-[![Learnly APP](https://img.shields.io/badge/Learnly.APP-repo-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/joao-hollanda/Learnly.APP)
-
-<br/>
-
----
-
-<br/>
-
-## `~/stack`
-
+```diff
++ [✓] IDOR prevention     — userId via JWT claims, nunca da rota
++ [✓] AI feedback         — batch único por simulado, por questão  
++ [✓] Cache inteligente   — staleTime: Infinity + invalidateQueries cross-page
++ [✓] Segurança           — sem ex.Message exposto, sem magic strings
++ [✓] Produto real        — pitch page, market sizing, pricing tiers
++ [✓] Prova social        — oferta de deploy em escola após demo
 ```
-Language    C# ████████████████████░░░  primary
-            JavaScript/TS ███████████░░░░░░░░░  frontend
-            SQL ████████░░░░░░░░░░░░░  queries & migrations
-
-Backend     .NET 8 · Clean Architecture · EF Core · REST API
-Frontend    React · TanStack Query · CSS Modules
-Database    PostgreSQL · Neon · SQL Server
-Auth        JWT · HttpOnly Cookies · Refresh Token rotation
-AI          Groq API · prompt engineering · batch inference
-Tooling     Git · Linux · Scrum · code review
-```
-
-<br/>
-
----
-
-<br/>
-
-## `~/stats`
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=joao-hollanda&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&ring_color=58a6ff&include_all_commits=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joao-hollanda&layout=compact&langs_count=5&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" />
-</div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=joao-hollanda&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
+[![](https://img.shields.io/badge/Learnly.API-C%23%20%7C%20.NET%20%7C%20Clean%20Arch-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/joao-hollanda/Learnly.API)
+&nbsp;
+[![](https://img.shields.io/badge/Learnly.APP-React%20%7C%20TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/joao-hollanda/Learnly.APP)
+
 </div>
 
 <br/>
 
 ---
 
+## 🛠 `~/stack`
+
+<div align="center">
+
+| Layer | Tech |
+|:---:|:---|
+| ![](https://img.shields.io/badge/BACKEND-0d1117?style=for-the-badge) | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Clean Arch](https://img.shields.io/badge/Clean_Architecture-6c63ff?style=flat-square) ![REST](https://img.shields.io/badge/REST_API-ff6e96?style=flat-square) |
+| ![](https://img.shields.io/badge/FRONTEND-0d1117?style=for-the-badge) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![TanStack](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| ![](https://img.shields.io/badge/DATABASE-0d1117?style=for-the-badge) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Neon](https://img.shields.io/badge/Neon-00E699?style=flat-square&logo=neon&logoColor=black) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) |
+| ![](https://img.shields.io/badge/AUTH_/_AI-0d1117?style=for-the-badge) | ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Groq](https://img.shields.io/badge/Groq_API-F55036?style=flat-square) |
+| ![](https://img.shields.io/badge/TOOLING-0d1117?style=for-the-badge) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Scrum](https://img.shields.io/badge/Scrum-009FDA?style=flat-square&logo=scrumalliance&logoColor=white) |
+
+</div>
+
 <br/>
 
-## `~/contact`
+---
 
-```bash
-$ cat links.sh
+## 📊 `~/stats`
 
-  open https://www.hollanda.dev
-  open https://linkedin.com/in/joao-victor-hollanda
-  open https://github.com/joao-hollanda
-```
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=joao-hollanda&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00FF88&icon_color=00CFFF&text_color=8b949e&ring_color=00FF88&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joao-hollanda&layout=compact&langs_count=5&hide_border=true&bg_color=0d1117&title_color=00FF88&text_color=8b949e" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=joao-hollanda&hide_border=true&background=0d1117&ring=00FF88&fire=FF6E96&currStreakLabel=00FF88&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
+</div>
+
+<br/>
+
+---
+
+## 📡 `~/contact`
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/hollanda.dev-00FF88?style=for-the-badge&logo=vercel&logoColor=black)](https://www.hollanda.dev)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joao-victor-hollanda)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joao-hollanda)
+
+<br/>
+
+![](https://komarev.com/ghpvc/?username=joao-hollanda&style=flat-square&color=00FF88&label=profile+views)
+
+</div>
 
 <br/>
 
 <div align="center">
-
-![](https://komarev.com/ghpvc/?username=joao-hollanda&style=flat-square&color=58a6ff&label=profile+views)
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF88,50:00CFFF,100:FF6E96&height=80&section=footer"/>
 </div>
