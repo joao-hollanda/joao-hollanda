@@ -83,7 +83,7 @@ $ curl -s learnly/status
 
 [![](https://img.shields.io/badge/Learnly.API-C%23%20%7C%20.NET%20%7C%20Clean%20Arch-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/joao-hollanda/Learnly.API)
 &nbsp;
-[![](https://img.shields.io/badge/Learnly.APP-React%20%7C%20TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/joao-hollanda/Learnly.APP)
+[![](https://img.shields.io/badge/Learnly.APP-React%20%7C%20JavaScript-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/joao-hollanda/Learnly.APP)
 
 </div>
 
